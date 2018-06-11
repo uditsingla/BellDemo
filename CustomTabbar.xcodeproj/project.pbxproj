@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D2DE7B5320CED13C002A9E94 /* Screen Shot 2018-06-04 at 1.38.35 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DE7B5220CED13C002A9E94 /* Screen Shot 2018-06-04 at 1.38.35 PM.png */; };
+		D2DE7B5620CED25C002A9E94 /* Screen Shot 2018-06-04 at 1.38.35 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DE7B5520CED25C002A9E94 /* Screen Shot 2018-06-04 at 1.38.35 PM.png */; };
 		D2E10A5920BFE9AF0081E915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E10A5820BFE9AF0081E915 /* AppDelegate.swift */; };
 		D2E10A5B20BFE9B00081E915 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E10A5A20BFE9B00081E915 /* ViewController.swift */; };
 		D2E10A5E20BFE9B00081E915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E10A5C20BFE9B00081E915 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		D2DE7B5220CED13C002A9E94 /* Screen Shot 2018-06-04 at 1.38.35 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2018-06-04 at 1.38.35 PM.png"; sourceTree = "<group>"; };
+		D2DE7B5520CED25C002A9E94 /* Screen Shot 2018-06-04 at 1.38.35 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2018-06-04 at 1.38.35 PM.png"; sourceTree = "<group>"; };
 		D2E10A5520BFE9AF0081E915 /* CustomTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E10A5820BFE9AF0081E915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2E10A5A20BFE9B00081E915 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		D2DE7B5420CED205002A9E94 /* TestReports */ = {
 			isa = PBXGroup;
 			children = (
+				D2DE7B5520CED25C002A9E94 /* Screen Shot 2018-06-04 at 1.38.35 PM.png */,
 			);
 			path = TestReports;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			files = (
 				D2E10A6320BFE9B10081E915 /* LaunchScreen.storyboard in Resources */,
 				D2E10A6020BFE9B10081E915 /* Assets.xcassets in Resources */,
+				D2DE7B5620CED25C002A9E94 /* Screen Shot 2018-06-04 at 1.38.35 PM.png in Resources */,
 				D2DE7B5320CED13C002A9E94 /* Screen Shot 2018-06-04 at 1.38.35 PM.png in Resources */,
 				D2E10A5E20BFE9B00081E915 /* Main.storyboard in Resources */,
 			);

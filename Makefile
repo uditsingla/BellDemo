@@ -12,3 +12,4 @@ clean:
 
 test:
 	GHUNIT_CLI=1 xcodebuild -target CustomTabbarTests -configuration Debug -sdk iphonesimulator build
+

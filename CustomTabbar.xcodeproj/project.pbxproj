@@ -74,9 +74,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2DE7B4C20CECFB5002A9E94 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				D2DE7B4D20CECFBF002A9E94 /* Test-Reports */,
+			);
+			path = Build;
+			sourceTree = "<group>";
+		};
+		D2DE7B4D20CECFBF002A9E94 /* Test-Reports */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Test-Reports";
+			sourceTree = "<group>";
+		};
 		D2E10A4C20BFE9AF0081E915 = {
 			isa = PBXGroup;
 			children = (
+				D2DE7B4C20CECFB5002A9E94 /* Build */,
 				D2E10A5720BFE9AF0081E915 /* CustomTabbar */,
 				D2E10A6C20BFE9B10081E915 /* CustomTabbarTests */,
 				D2E10A7720BFE9B10081E915 /* CustomTabbarUITests */,

@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        
         let array = self.tabbar?.items
         for (index,controller) in (array?.enumerated())! {
             if index == 0 {
@@ -26,7 +27,7 @@ class ViewController: UIViewController {
         
         middleButton.setTitle("BELL", for: .normal)
         middleButton.frame.size = CGSize(width: 50, height: 50)
-        middleButton.backgroundColor = .blue
+        middleButton.backgroundColor = .green
         middleButton.layer.cornerRadius = middleButton.frame.size.width/2
         middleButton.layer.masksToBounds = true
         middleButton.center = CGPoint(x: UIScreen.main.bounds.width / 2, y:

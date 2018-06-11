@@ -84,6 +84,13 @@
 			path = Build;
 			sourceTree = "<group>";
 		};
+		D2DE7B5420CED205002A9E94 /* TestReports */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TestReports;
+			sourceTree = "<group>";
+		};
 		D2E10A4C20BFE9AF0081E915 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +115,7 @@
 		D2E10A5720BFE9AF0081E915 /* CustomTabbar */ = {
 			isa = PBXGroup;
 			children = (
+				D2DE7B5420CED205002A9E94 /* TestReports */,
 				D2E10A5820BFE9AF0081E915 /* AppDelegate.swift */,
 				D2E10A5A20BFE9B00081E915 /* ViewController.swift */,
 				D2E10A5C20BFE9B00081E915 /* Main.storyboard */,

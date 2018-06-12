@@ -510,7 +510,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Abhishek Nautiyal (3N6FQ343XA)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3N6FQ343XA;
 				INFOPLIST_FILE = CustomTabbarTests/Info.plist;
@@ -533,7 +533,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Abhishek Nautiyal (3N6FQ343XA)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3N6FQ343XA;
 				INFOPLIST_FILE = CustomTabbarTests/Info.plist;

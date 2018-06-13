@@ -90,13 +90,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D2DE7B4C20CECFB5002A9E94 /* Build */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Build;
-			sourceTree = "<group>";
-		};
 		D2DE7B5420CED205002A9E94 /* TestReports */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,7 +101,6 @@
 		D2E10A4C20BFE9AF0081E915 = {
 			isa = PBXGroup;
 			children = (
-				D2DE7B4C20CECFB5002A9E94 /* Build */,
 				D2E10A5720BFE9AF0081E915 /* CustomTabbar */,
 				D2E10A6C20BFE9B10081E915 /* CustomTabbarTests */,
 				D2E10A7720BFE9B10081E915 /* CustomTabbarUITests */,
@@ -189,7 +181,6 @@
 				D2E10A6520BFE9B10081E915 /* Sources */,
 				D2E10A6620BFE9B10081E915 /* Frameworks */,
 				D2E10A6720BFE9B10081E915 /* Resources */,
-				D290F9D820CE9DD00089B87C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -296,19 +287,6 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
-		};
-		D290F9D820CE9DD00089B87C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = /Users/abhisheksingla/Desktop/BellDemo/RunTests.sh;
 		};
 		EEC991A8638A40450E81E832 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -501,7 +479,10 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3N6FQ343XA;
 				INFOPLIST_FILE = CustomTabbar/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.techmahindra.jenkinadhoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "06aa1300-d769-458e-a491-fd3c971502b3";
@@ -520,7 +501,10 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3N6FQ343XA;
 				INFOPLIST_FILE = CustomTabbar/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.techmahindra.jenkinadhoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "06aa1300-d769-458e-a491-fd3c971502b3";
@@ -540,7 +524,11 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3N6FQ343XA;
 				INFOPLIST_FILE = CustomTabbarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mbm.bell.CustomTabbarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -560,7 +548,11 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3N6FQ343XA;
 				INFOPLIST_FILE = CustomTabbarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mbm.bell.CustomTabbarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -14,18 +14,10 @@
 		D2E10A6020BFE9B10081E915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E10A5F20BFE9B10081E915 /* Assets.xcassets */; };
 		D2E10A6320BFE9B10081E915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E10A6120BFE9B10081E915 /* LaunchScreen.storyboard */; };
 		D2E10A6E20BFE9B10081E915 /* CustomTabbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E10A6D20BFE9B10081E915 /* CustomTabbarTests.swift */; };
-		D2E10A7920BFE9B10081E915 /* CustomTabbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E10A7820BFE9B10081E915 /* CustomTabbarUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		D2E10A6A20BFE9B10081E915 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D2E10A4D20BFE9AF0081E915 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2E10A5420BFE9AF0081E915;
-			remoteInfo = CustomTabbar;
-		};
-		D2E10A7520BFE9B10081E915 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D2E10A4D20BFE9AF0081E915 /* Project object */;
 			proxyType = 1;
@@ -46,7 +38,6 @@
 		D2E10A6920BFE9B10081E915 /* CustomTabbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E10A6D20BFE9B10081E915 /* CustomTabbarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarTests.swift; sourceTree = "<group>"; };
 		D2E10A6F20BFE9B10081E915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2E10A7420BFE9B10081E915 /* CustomTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E10A7820BFE9B10081E915 /* CustomTabbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarUITests.swift; sourceTree = "<group>"; };
 		D2E10A7A20BFE9B10081E915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,13 +51,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D2E10A6620BFE9B10081E915 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2E10A7120BFE9B10081E915 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -107,7 +91,6 @@
 			children = (
 				D2E10A5520BFE9AF0081E915 /* CustomTabbar.app */,
 				D2E10A6920BFE9B10081E915 /* CustomTabbarTests.xctest */,
-				D2E10A7420BFE9B10081E915 /* CustomTabbarUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,24 +166,6 @@
 			productReference = D2E10A6920BFE9B10081E915 /* CustomTabbarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D2E10A7320BFE9B10081E915 /* CustomTabbarUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D2E10A8320BFE9B10081E915 /* Build configuration list for PBXNativeTarget "CustomTabbarUITests" */;
-			buildPhases = (
-				D2E10A7020BFE9B10081E915 /* Sources */,
-				D2E10A7120BFE9B10081E915 /* Frameworks */,
-				D2E10A7220BFE9B10081E915 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D2E10A7620BFE9B10081E915 /* PBXTargetDependency */,
-			);
-			name = CustomTabbarUITests;
-			productName = CustomTabbarUITests;
-			productReference = D2E10A7420BFE9B10081E915 /* CustomTabbarUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -215,10 +180,6 @@
 						CreatedOnToolsVersion = 9.3;
 					};
 					D2E10A6820BFE9B10081E915 = {
-						CreatedOnToolsVersion = 9.3;
-						TestTargetID = D2E10A5420BFE9AF0081E915;
-					};
-					D2E10A7320BFE9B10081E915 = {
 						CreatedOnToolsVersion = 9.3;
 						TestTargetID = D2E10A5420BFE9AF0081E915;
 					};
@@ -239,7 +200,6 @@
 			targets = (
 				D2E10A5420BFE9AF0081E915 /* CustomTabbar */,
 				D2E10A6820BFE9B10081E915 /* CustomTabbarTests */,
-				D2E10A7320BFE9B10081E915 /* CustomTabbarUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,13 +217,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D2E10A6720BFE9B10081E915 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2E10A7220BFE9B10081E915 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,14 +259,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2E10A7020BFE9B10081E915 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2E10A7920BFE9B10081E915 /* CustomTabbarUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -321,11 +266,6 @@
 			isa = PBXTargetDependency;
 			target = D2E10A5420BFE9AF0081E915 /* CustomTabbar */;
 			targetProxy = D2E10A6A20BFE9B10081E915 /* PBXContainerItemProxy */;
-		};
-		D2E10A7620BFE9B10081E915 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D2E10A5420BFE9AF0081E915 /* CustomTabbar */;
-			targetProxy = D2E10A7520BFE9B10081E915 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -551,44 +491,6 @@
 			};
 			name = Release;
 		};
-		D2E10A8420BFE9B10081E915 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CustomTabbarUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mbm.bell.CustomTabbarUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CustomTabbar;
-			};
-			name = Debug;
-		};
-		D2E10A8520BFE9B10081E915 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CustomTabbarUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mbm.bell.CustomTabbarUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CustomTabbar;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -615,15 +517,6 @@
 			buildConfigurations = (
 				D2E10A8120BFE9B10081E915 /* Debug */,
 				D2E10A8220BFE9B10081E915 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D2E10A8320BFE9B10081E915 /* Build configuration list for PBXNativeTarget "CustomTabbarUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D2E10A8420BFE9B10081E915 /* Debug */,
-				D2E10A8520BFE9B10081E915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

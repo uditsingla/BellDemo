@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyButton (0.8.0)
+
+DEPENDENCIES:
+  - SwiftyButton
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftyButton
+
+SPEC CHECKSUMS:
+  SwiftyButton: 093e3fe2becf3ae31c0f6c1c6987b79a93fb3ecb
+
+PODFILE CHECKSUM: 46eebf412d19248769fc961ba5a38f77952f5d71
+
+COCOAPODS: 1.5.2

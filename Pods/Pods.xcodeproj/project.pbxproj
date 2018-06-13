@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		455CDC6045A1580657B9B980314979CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		7548AAA7BEADB69D764323E344254F1B /* Pods-CustomTabbarTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC6691385DB589BEF3173E103DC3C4B4 /* Pods-CustomTabbarTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75C7462B60EB06D631CF353487FD2D20 /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DDC81025868EB2BCFE5B688D31DBE2 /* FlatButton.swift */; };
+		80A737D8F57B4D29F2C1521AB21962ED /* SwiftyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA9584C4D9BBE233BB483A91026476 /* SwiftyButton-dummy.m */; };
+		861BDE1CCE4B9BCCEB1940E88A7E1750 /* Pods-CustomTabbar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64437147FDB455D52402A8107DEC8BC5 /* Pods-CustomTabbar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A09F0FA1AEB00F25D71B6BCA595D0459 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		A260A4FE79CEFA2BA05DDB1D2385A630 /* SwiftyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 360091445FDDE353697E18FBD4289B86 /* SwiftyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACBB0CF6A65F44D397F70A3911015011 /* PressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242944BE6DF3E7E07DC9B44D47CA6DB4 /* PressableButton.swift */; };
+		B6CDC6F502773D92FC0BC9CE112FF576 /* Pods-CustomTabbarTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E54CE71456B265114287BD92D6B243 /* Pods-CustomTabbarTests-dummy.m */; };
+		DC13B342676B1DFA80A375016CC93CB9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D8F9AC8F20043ED61C73A93968736 /* Utils.swift */; };
+		E3E77518900F0CC5B20B65A9EF94CFD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F1240EEE8B2BF0B6F562A5770FDAAD06 /* CustomPressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5674BA5687974355A92026CA50B925D9 /* CustomPressableButton.swift */; };
+		F97B49B920823600B454521DDE26EAFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		FE4E86C7DB1CE7CD8904E98D6FDB0190 /* Pods-CustomTabbar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4AFF962D6CD9C31884C75E7205384 /* Pods-CustomTabbar-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BD29720CABB06DEBEC200B669E16E2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D6439F6A6C9660309218DAE4FC79C12;
+			remoteInfo = SwiftyButton;
+		};
+		BBBD7EC46BF57CD51B61C6DA8F25047E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6F1AD6A24BB68409DD210827D084DCC;
+			remoteInfo = "Pods-CustomTabbar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0854A4EA4D2D05F00974421A6CBFB1D1 /* Pods-CustomTabbar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomTabbar-frameworks.sh"; sourceTree = "<group>"; };
+		17359C8E854F2242038886FD383971D8 /* Pods-CustomTabbarTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomTabbarTests.modulemap"; sourceTree = "<group>"; };
+		20DDC81025868EB2BCFE5B688D31DBE2 /* FlatButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlatButton.swift; path = SwiftyButton/FlatButton.swift; sourceTree = "<group>"; };
+		242944BE6DF3E7E07DC9B44D47CA6DB4 /* PressableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PressableButton.swift; path = SwiftyButton/PressableButton.swift; sourceTree = "<group>"; };
+		2E1922D5122FF564493A414CE6F6A0C2 /* SwiftyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-prefix.pch"; sourceTree = "<group>"; };
+		300C1BFFD53F8C3354A014227F9AB896 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		360091445FDDE353697E18FBD4289B86 /* SwiftyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-umbrella.h"; sourceTree = "<group>"; };
+		39091B74E7F00D392844B1F3FA2ED8FC /* SwiftyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyButton.xcconfig; sourceTree = "<group>"; };
+		47B4BA06D077B8D87154A130EDA2EAAC /* Pods-CustomTabbarTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomTabbarTests-resources.sh"; sourceTree = "<group>"; };
+		4DE4AFF962D6CD9C31884C75E7205384 /* Pods-CustomTabbar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomTabbar-dummy.m"; sourceTree = "<group>"; };
+		5674BA5687974355A92026CA50B925D9 /* CustomPressableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomPressableButton.swift; path = SwiftyButton/CustomPressableButton.swift; sourceTree = "<group>"; };
+		5890E979E67CA610EF1374BD12DBA819 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64437147FDB455D52402A8107DEC8BC5 /* Pods-CustomTabbar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomTabbar-umbrella.h"; sourceTree = "<group>"; };
+		651B2CA5CBF66ACCF48FED989E9449BA /* Pods-CustomTabbar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomTabbar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6A1851C9A4B50B586EB8456E7B735E34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78013855F67B2E8A8A3099FFB9BFC67F /* Pods_CustomTabbarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomTabbarTests.framework; path = "Pods-CustomTabbarTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDDA2EB537A3C6CE8D279801A6ACA8D /* Pods-CustomTabbar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomTabbar.modulemap"; sourceTree = "<group>"; };
+		7F1F5CCDDA5C5224A69E62C0B1EC886E /* Pods_CustomTabbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomTabbar.framework; path = "Pods-CustomTabbar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A046E78A7D51FF9D64D563F29C80EEB /* Pods-CustomTabbarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomTabbarTests.release.xcconfig"; sourceTree = "<group>"; };
+		8ADA9584C4D9BBE233BB483A91026476 /* SwiftyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyButton-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2794975C7430B4890F6D825C7290869 /* SwiftyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyButton.modulemap; sourceTree = "<group>"; };
+		A3B5D056DE43BD855BEAF1894BDE3B08 /* Pods-CustomTabbarTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomTabbarTests-frameworks.sh"; sourceTree = "<group>"; };
+		A402D30D3BDF72A2B1FC13889E612D7C /* Pods-CustomTabbarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomTabbarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC6691385DB589BEF3173E103DC3C4B4 /* Pods-CustomTabbarTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomTabbarTests-umbrella.h"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B9374E61587E207A5F3B0503D191BD25 /* Pods-CustomTabbar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomTabbar-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9E54CE71456B265114287BD92D6B243 /* Pods-CustomTabbarTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomTabbarTests-dummy.m"; sourceTree = "<group>"; };
+		C38D8F9AC8F20043ED61C73A93968736 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = SwiftyButton/Utils.swift; sourceTree = "<group>"; };
+		CB23A297D4FE6D4590E7645DE65E6961 /* Pods-CustomTabbar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomTabbar.debug.xcconfig"; sourceTree = "<group>"; };
+		CF42C88EF9BD2F4A2048B9C4BD1B3780 /* Pods-CustomTabbarTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomTabbarTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC0C418028EAF1694CEEB8F2FC113679 /* Pods-CustomTabbarTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomTabbarTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EBF6E72A9C3C7E2F7F560CD371D0C9AE /* Pods-CustomTabbar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomTabbar.release.xcconfig"; sourceTree = "<group>"; };
+		EE169BB3FD858C9DD668BA4DA5FD7953 /* Pods-CustomTabbar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomTabbar-resources.sh"; sourceTree = "<group>"; };
+		FD80C42390387E188A81C2A00FBA8A2D /* SwiftyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyButton.framework; path = SwiftyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC71CB4AEE57C83A4F4994E61A52E861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455CDC6045A1580657B9B980314979CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D878FE029ECFD5003598DB268D0BCFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E77518900F0CC5B20B65A9EF94CFD7 /* Foundation.framework in Frameworks */,
+				A09F0FA1AEB00F25D71B6BCA595D0459 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEB1ECAAE6BE59E65CFD4CC00381011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97B49B920823600B454521DDE26EAFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40A9785EEB3D5547931497F1118CE0C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF281646EB70A2F0B07BD0E74D50A15F /* SwiftyButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				40A9785EEB3D5547931497F1118CE0C7 /* Pods */,
+				FC912F4B0149CE81DA89AEA8241E0495 /* Products */,
+				F6B669B8BA8DA0D473F02F97940EC42A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		810FFB884CCDB471E7D0E0F3E1D8890F /* Pods-CustomTabbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				300C1BFFD53F8C3354A014227F9AB896 /* Info.plist */,
+				17359C8E854F2242038886FD383971D8 /* Pods-CustomTabbarTests.modulemap */,
+				DC0C418028EAF1694CEEB8F2FC113679 /* Pods-CustomTabbarTests-acknowledgements.markdown */,
+				CF42C88EF9BD2F4A2048B9C4BD1B3780 /* Pods-CustomTabbarTests-acknowledgements.plist */,
+				B9E54CE71456B265114287BD92D6B243 /* Pods-CustomTabbarTests-dummy.m */,
+				A3B5D056DE43BD855BEAF1894BDE3B08 /* Pods-CustomTabbarTests-frameworks.sh */,
+				47B4BA06D077B8D87154A130EDA2EAAC /* Pods-CustomTabbarTests-resources.sh */,
+				AC6691385DB589BEF3173E103DC3C4B4 /* Pods-CustomTabbarTests-umbrella.h */,
+				A402D30D3BDF72A2B1FC13889E612D7C /* Pods-CustomTabbarTests.debug.xcconfig */,
+				8A046E78A7D51FF9D64D563F29C80EEB /* Pods-CustomTabbarTests.release.xcconfig */,
+			);
+			name = "Pods-CustomTabbarTests";
+			path = "Target Support Files/Pods-CustomTabbarTests";
+			sourceTree = "<group>";
+		};
+		D8F1F6452E845D2D1A129C068DC57BDA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5890E979E67CA610EF1374BD12DBA819 /* Info.plist */,
+				A2794975C7430B4890F6D825C7290869 /* SwiftyButton.modulemap */,
+				39091B74E7F00D392844B1F3FA2ED8FC /* SwiftyButton.xcconfig */,
+				8ADA9584C4D9BBE233BB483A91026476 /* SwiftyButton-dummy.m */,
+				2E1922D5122FF564493A414CE6F6A0C2 /* SwiftyButton-prefix.pch */,
+				360091445FDDE353697E18FBD4289B86 /* SwiftyButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyButton";
+			sourceTree = "<group>";
+		};
+		DF281646EB70A2F0B07BD0E74D50A15F /* SwiftyButton */ = {
+			isa = PBXGroup;
+			children = (
+				5674BA5687974355A92026CA50B925D9 /* CustomPressableButton.swift */,
+				20DDC81025868EB2BCFE5B688D31DBE2 /* FlatButton.swift */,
+				242944BE6DF3E7E07DC9B44D47CA6DB4 /* PressableButton.swift */,
+				C38D8F9AC8F20043ED61C73A93968736 /* Utils.swift */,
+				D8F1F6452E845D2D1A129C068DC57BDA /* Support Files */,
+			);
+			name = SwiftyButton;
+			path = SwiftyButton;
+			sourceTree = "<group>";
+		};
+		E1A08710E4FD15F45A49FEE116B498D2 /* Pods-CustomTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				6A1851C9A4B50B586EB8456E7B735E34 /* Info.plist */,
+				7CDDA2EB537A3C6CE8D279801A6ACA8D /* Pods-CustomTabbar.modulemap */,
+				651B2CA5CBF66ACCF48FED989E9449BA /* Pods-CustomTabbar-acknowledgements.markdown */,
+				B9374E61587E207A5F3B0503D191BD25 /* Pods-CustomTabbar-acknowledgements.plist */,
+				4DE4AFF962D6CD9C31884C75E7205384 /* Pods-CustomTabbar-dummy.m */,
+				0854A4EA4D2D05F00974421A6CBFB1D1 /* Pods-CustomTabbar-frameworks.sh */,
+				EE169BB3FD858C9DD668BA4DA5FD7953 /* Pods-CustomTabbar-resources.sh */,
+				64437147FDB455D52402A8107DEC8BC5 /* Pods-CustomTabbar-umbrella.h */,
+				CB23A297D4FE6D4590E7645DE65E6961 /* Pods-CustomTabbar.debug.xcconfig */,
+				EBF6E72A9C3C7E2F7F560CD371D0C9AE /* Pods-CustomTabbar.release.xcconfig */,
+			);
+			name = "Pods-CustomTabbar";
+			path = "Target Support Files/Pods-CustomTabbar";
+			sourceTree = "<group>";
+		};
+		F6B669B8BA8DA0D473F02F97940EC42A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1A08710E4FD15F45A49FEE116B498D2 /* Pods-CustomTabbar */,
+				810FFB884CCDB471E7D0E0F3E1D8890F /* Pods-CustomTabbarTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FC912F4B0149CE81DA89AEA8241E0495 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F1F5CCDDA5C5224A69E62C0B1EC886E /* Pods_CustomTabbar.framework */,
+				78013855F67B2E8A8A3099FFB9BFC67F /* Pods_CustomTabbarTests.framework */,
+				FD80C42390387E188A81C2A00FBA8A2D /* SwiftyButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		563EA7E030CD7CA4D84D83684C403272 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A260A4FE79CEFA2BA05DDB1D2385A630 /* SwiftyButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB6B2E77DEBE0DBB03E540FE5EEF771 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7548AAA7BEADB69D764323E344254F1B /* Pods-CustomTabbarTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63C5A491FAA4250C27AE4DFFFA640B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861BDE1CCE4B9BCCEB1940E88A7E1750 /* Pods-CustomTabbar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7D6439F6A6C9660309218DAE4FC79C12 /* SwiftyButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FBDFC931AF655FAA97307DFA7FEBF0 /* Build configuration list for PBXNativeTarget "SwiftyButton" */;
+			buildPhases = (
+				ADD84A58207061132200F27D981E206A /* Sources */,
+				D878FE029ECFD5003598DB268D0BCFFA /* Frameworks */,
+				563EA7E030CD7CA4D84D83684C403272 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyButton;
+			productName = SwiftyButton;
+			productReference = FD80C42390387E188A81C2A00FBA8A2D /* SwiftyButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A33E44578A8B4FE5745A6A3C1031F31C /* Pods-CustomTabbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB75C056D99E825CC7E71F53DA7B4F5 /* Build configuration list for PBXNativeTarget "Pods-CustomTabbarTests" */;
+			buildPhases = (
+				F099F5CD59D1C25CB65B38C216064CCD /* Sources */,
+				BC71CB4AEE57C83A4F4994E61A52E861 /* Frameworks */,
+				8EB6B2E77DEBE0DBB03E540FE5EEF771 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5787AB486CE8977F413110CBF358523E /* PBXTargetDependency */,
+			);
+			name = "Pods-CustomTabbarTests";
+			productName = "Pods-CustomTabbarTests";
+			productReference = 78013855F67B2E8A8A3099FFB9BFC67F /* Pods_CustomTabbarTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6F1AD6A24BB68409DD210827D084DCC /* Pods-CustomTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096AA00A0DE5EA13406A05B8B0E256B4 /* Build configuration list for PBXNativeTarget "Pods-CustomTabbar" */;
+			buildPhases = (
+				D454313286477F9FBEFF7F87A608BCF5 /* Sources */,
+				DCEB1ECAAE6BE59E65CFD4CC00381011 /* Frameworks */,
+				A63C5A491FAA4250C27AE4DFFFA640B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D14B610E6A67E7071C0256DCF0F1A2AD /* PBXTargetDependency */,
+			);
+			name = "Pods-CustomTabbar";
+			productName = "Pods-CustomTabbar";
+			productReference = 7F1F5CCDDA5C5224A69E62C0B1EC886E /* Pods_CustomTabbar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FC912F4B0149CE81DA89AEA8241E0495 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6F1AD6A24BB68409DD210827D084DCC /* Pods-CustomTabbar */,
+				A33E44578A8B4FE5745A6A3C1031F31C /* Pods-CustomTabbarTests */,
+				7D6439F6A6C9660309218DAE4FC79C12 /* SwiftyButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADD84A58207061132200F27D981E206A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1240EEE8B2BF0B6F562A5770FDAAD06 /* CustomPressableButton.swift in Sources */,
+				75C7462B60EB06D631CF353487FD2D20 /* FlatButton.swift in Sources */,
+				ACBB0CF6A65F44D397F70A3911015011 /* PressableButton.swift in Sources */,
+				80A737D8F57B4D29F2C1521AB21962ED /* SwiftyButton-dummy.m in Sources */,
+				DC13B342676B1DFA80A375016CC93CB9 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D454313286477F9FBEFF7F87A608BCF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4E86C7DB1CE7CD8904E98D6FDB0190 /* Pods-CustomTabbar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F099F5CD59D1C25CB65B38C216064CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CDC6F502773D92FC0BC9CE112FF576 /* Pods-CustomTabbarTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5787AB486CE8977F413110CBF358523E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CustomTabbar";
+			target = B6F1AD6A24BB68409DD210827D084DCC /* Pods-CustomTabbar */;
+			targetProxy = BBBD7EC46BF57CD51B61C6DA8F25047E /* PBXContainerItemProxy */;
+		};
+		D14B610E6A67E7071C0256DCF0F1A2AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyButton;
+			target = 7D6439F6A6C9660309218DAE4FC79C12 /* SwiftyButton */;
+			targetProxy = 8BD29720CABB06DEBEC200B669E16E2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		29D60B75BCCFDC844A5A9FABF9755D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF6E72A9C3C7E2F7F560CD371D0C9AE /* Pods-CustomTabbar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomTabbar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomTabbar/Pods-CustomTabbar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		382BA37BD5FFCC356DFE7A50973A9E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39091B74E7F00D392844B1F3FA2ED8FC /* SwiftyButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyButton/SwiftyButton.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyButton;
+				PRODUCT_NAME = SwiftyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B1AA07938190562DD90B17A738ED9B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39091B74E7F00D392844B1F3FA2ED8FC /* SwiftyButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyButton/SwiftyButton.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyButton;
+				PRODUCT_NAME = SwiftyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0E96258739E449703C1692B9B2B3CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A402D30D3BDF72A2B1FC13889E612D7C /* Pods-CustomTabbarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomTabbarTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomTabbarTests/Pods-CustomTabbarTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB63AB82CDB893F15EE64EF3786CCF3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB23A297D4FE6D4590E7645DE65E6961 /* Pods-CustomTabbar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomTabbar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomTabbar/Pods-CustomTabbar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3EEC624CFD40AB160A7B6309E1BDAD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A046E78A7D51FF9D64D563F29C80EEB /* Pods-CustomTabbarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomTabbarTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomTabbarTests/Pods-CustomTabbarTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		096AA00A0DE5EA13406A05B8B0E256B4 /* Build configuration list for PBXNativeTarget "Pods-CustomTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB63AB82CDB893F15EE64EF3786CCF3A /* Debug */,
+				29D60B75BCCFDC844A5A9FABF9755D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FBDFC931AF655FAA97307DFA7FEBF0 /* Build configuration list for PBXNativeTarget "SwiftyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1AA07938190562DD90B17A738ED9B6 /* Debug */,
+				382BA37BD5FFCC356DFE7A50973A9E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB75C056D99E825CC7E71F53DA7B4F5 /* Build configuration list for PBXNativeTarget "Pods-CustomTabbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E96258739E449703C1692B9B2B3CA2 /* Debug */,
+				F3EEC624CFD40AB160A7B6309E1BDAD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -35,7 +35,7 @@ class CustomTabbarTests: XCTestCase {
     }
     
     func testLoginSuccess(){
-        //XCTAssertEqual(1, 1)
+        XCTAssertEqual(1, 2)
     }
  
     

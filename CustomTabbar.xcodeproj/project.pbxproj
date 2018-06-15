@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A93989FAE888E00995D23C5 /* Pods_CustomTabbarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26875D852B6C9A571DB722F6 /* Pods_CustomTabbarTests.framework */; };
 		BF10B02F3337436CC48D615A /* Pods_CustomTabbar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F07AA84FF554EBA0D18E161 /* Pods_CustomTabbar.framework */; };
+		D279889F20D3BD6200C87A03 /* LoginUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D279889E20D3BD6200C87A03 /* LoginUnitTests.swift */; };
 		D2DE7B5620CED25C002A9E94 /* Screen Shot 2018-06-04 at 1.38.35 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DE7B5520CED25C002A9E94 /* Screen Shot 2018-06-04 at 1.38.35 PM.png */; };
 		D2E10A5920BFE9AF0081E915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E10A5820BFE9AF0081E915 /* AppDelegate.swift */; };
 		D2E10A5B20BFE9B00081E915 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E10A5A20BFE9B00081E915 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 		9537E8F3BC16B0A135BAF06A /* Pods-CustomTabbarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTabbarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomTabbarTests/Pods-CustomTabbarTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F07AA84FF554EBA0D18E161 /* Pods_CustomTabbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomTabbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60510E78C39293FAAC06AFC /* Pods-CustomTabbar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTabbar.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomTabbar/Pods-CustomTabbar.release.xcconfig"; sourceTree = "<group>"; };
+		D279889E20D3BD6200C87A03 /* LoginUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUnitTests.swift; sourceTree = "<group>"; };
 		D2DE7B5520CED25C002A9E94 /* Screen Shot 2018-06-04 at 1.38.35 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2018-06-04 at 1.38.35 PM.png"; sourceTree = "<group>"; };
 		D2E10A5520BFE9AF0081E915 /* CustomTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E10A5820BFE9AF0081E915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				D2E10A6D20BFE9B10081E915 /* CustomTabbarTests.swift */,
+				D279889E20D3BD6200C87A03 /* LoginUnitTests.swift */,
 				D2E10A6F20BFE9B10081E915 /* Info.plist */,
 			);
 			path = CustomTabbarTests;
@@ -323,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2E10A6E20BFE9B10081E915 /* CustomTabbarTests.swift in Sources */,
+				D279889F20D3BD6200C87A03 /* LoginUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
